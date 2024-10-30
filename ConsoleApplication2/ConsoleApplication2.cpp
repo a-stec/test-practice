@@ -5,9 +5,13 @@
 
 using namespace std;
 
+int sum(int a, int b) {
+    return a + b;
+}
+
 int main()
 {
-    cout << "Hello World!\n";
+    cout << sum(5, 3) << endl;
 
     return 0;
 }
