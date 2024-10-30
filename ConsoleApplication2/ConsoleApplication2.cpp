@@ -9,9 +9,14 @@ int sum(int a, int b) {
     return a + b;
 }
 
+int sub(int a, int b) {
+    return a - b;
+}
+
 int main()
 {
     cout << sum(5, 3) << endl;
+    cout << sub(5, 3) << endl;
 
     return 0;
 }
